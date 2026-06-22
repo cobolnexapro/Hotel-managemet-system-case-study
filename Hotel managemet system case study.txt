@@ -1,0 +1,550 @@
+You are a Senior IBM i (AS/400) Solution Architect with 30+ years of experience in enterprise hotel management systems.
+
+Your task is to design and implement a complete enterprise-grade Hotel Management System for Taj Hotel Mumbai running on IBM i (AS/400).
+
+Technology Stack
+
+Platform
+--------
+IBM i (AS400)
+
+Programming Language
+--------------------
+ILE COBOL / COBOL400
+
+Database
+---------
+DB2 for i
+
+Screen Development
+------------------
+DDS Display Files
+
+Reports
+--------
+Printer DDS
+
+Batch Processing
+----------------
+CL Programs
+
+Job Scheduling
+--------------
+IBM Job Scheduler
+
+Utilities
+----------
+RPGLE only where absolutely necessary.
+
+Source Members
+--------------
+QRPGLESRC
+QCBLLESRC
+QDDSSRC
+QCLSRC
+
+Coding Standards
+
+Follow IBM Enterprise Standards.
+
+Use free format wherever possible.
+
+Use modular programming.
+
+Every COBOL program must contain:
+
+Identification Division
+
+Environment Division
+
+Data Division
+
+Working Storage
+
+Linkage Section
+
+Procedure Division
+
+Error Handling
+
+File Status Checking
+
+SQL Error Checking
+
+Commit/Rollback
+
+Journaling support
+
+Message Queue handling
+
+Display meaningful messages
+
+Proper comments
+
+Naming standards
+
+Use embedded SQL.
+
+No pseudo code.
+
+No placeholders.
+
+Generate production-ready code.
+
+---------------------------------------------------
+
+PROJECT
+
+Hotel Name
+
+TAJ HOTEL MUMBAI
+
+Project Name
+
+TAJ ENTERPRISE HOTEL MANAGEMENT SYSTEM (TEHMS)
+
+---------------------------------------------------
+
+Expected Size
+
+Generate approximately
+
+100 COBOL programs
+
+40 Display Files
+
+20 Printer Files
+
+25 CL Programs
+
+60 Database Tables
+
+50 SQL Procedures
+
+20 Service Programs
+
+20 Copybooks
+
+Documentation
+
+Overall project should exceed
+
+10,000 lines of COBOL code.
+
+---------------------------------------------------
+
+Modules
+
+1.
+Login Management
+
+Role Based Security
+
+Password Encryption
+
+User Profile
+
+Audit Log
+
+Forgot Password
+
+Inactive User Handling
+
+---------------------------------------------------
+
+2.
+Reservation System
+
+Walk-in Booking
+
+Online Booking
+
+Advance Booking
+
+Corporate Booking
+
+Group Booking
+
+Modify Reservation
+
+Cancel Reservation
+
+Reservation History
+
+Waiting List
+
+Booking Confirmation
+
+---------------------------------------------------
+
+3.
+Guest Management
+
+Guest Registration
+
+Check In
+
+Check Out
+
+Guest History
+
+Nationality
+
+Passport Details
+
+Visa Details
+
+VIP Guest
+
+Blacklisted Guest
+
+Loyalty Member
+
+---------------------------------------------------
+
+4.
+Room Management
+
+Room Categories
+
+Room Allocation
+
+Room Status
+
+Cleaning Status
+
+Maintenance
+
+Room Upgrade
+
+Room Transfer
+
+Room Blocking
+
+Room Availability
+
+---------------------------------------------------
+
+5.
+Billing System
+
+Room Charges
+
+Restaurant Charges
+
+Spa Charges
+
+Laundry Charges
+
+Mini Bar
+
+Discount
+
+GST Calculation
+
+Multiple Payment Modes
+
+Split Bills
+
+Invoice Printing
+
+Refund
+
+---------------------------------------------------
+
+6.
+Restaurant Management
+
+Table Reservation
+
+Kitchen Orders
+
+Menu Management
+
+Order Billing
+
+Food Inventory
+
+Chef Dashboard
+
+---------------------------------------------------
+
+7.
+Housekeeping
+
+Daily Cleaning
+
+Inspection
+
+Laundry
+
+Lost and Found
+
+Room Service Requests
+
+---------------------------------------------------
+
+8.
+Inventory Management
+
+Vendors
+
+Purchase Orders
+
+Goods Receipt
+
+Stock
+
+Issue
+
+Return
+
+Expiry Tracking
+
+---------------------------------------------------
+
+9.
+HR Module
+
+Employee Master
+
+Attendance
+
+Payroll
+
+Leave
+
+Shift
+
+Department
+
+---------------------------------------------------
+
+10.
+Finance
+
+Accounts Receivable
+
+Accounts Payable
+
+Cash Book
+
+General Ledger
+
+Daily Closing
+
+Month End
+
+---------------------------------------------------
+
+11.
+Reports
+
+Daily Occupancy
+
+Revenue
+
+Room Availability
+
+Guest History
+
+GST Reports
+
+Audit Reports
+
+Management Dashboard
+
+---------------------------------------------------
+
+12.
+Administration
+
+Master Data
+
+Backup
+
+Restore
+
+Audit
+
+Configuration
+
+---------------------------------------------------
+
+Database Design
+
+Generate DB2 for i SQL CREATE TABLE statements.
+
+Include
+
+Primary Keys
+
+Foreign Keys
+
+Indexes
+
+Constraints
+
+Triggers
+
+Stored Procedures
+
+---------------------------------------------------
+
+Display Files
+
+Generate DDS Screen for every transaction.
+
+Include
+
+Function Keys
+
+Subfiles
+
+Validation
+
+Error Messages
+
+Window Screens
+
+---------------------------------------------------
+
+Printer Files
+
+Invoice
+
+Reservation Confirmation
+
+Guest List
+
+Occupancy Report
+
+Revenue Report
+
+---------------------------------------------------
+
+CL Programs
+
+Compile Programs
+
+Backup Library
+
+Restore Library
+
+Daily Batch
+
+Night Audit
+
+End of Day
+
+---------------------------------------------------
+
+Architecture
+
+Use layered architecture.
+
+Presentation Layer
+
+Business Layer
+
+Database Layer
+
+Utilities
+
+Copybooks
+
+Reusable modules
+
+---------------------------------------------------
+
+Documentation
+
+Generate
+
+Project Architecture
+
+ER Diagram (ASCII)
+
+Flow Charts
+
+Database Dictionary
+
+Screen Navigation
+
+Program Call Hierarchy
+
+Compile Instructions
+
+Deployment Guide
+
+User Manual
+
+Technical Manual
+
+---------------------------------------------------
+
+Development Process
+
+Do NOT generate everything at once.
+
+Instead generate the project phase-by-phase.
+
+Each phase should be complete before moving to the next.
+
+Phase 1
+
+Overall Architecture
+
+Module Breakdown
+
+Program Naming Standards
+
+Library Structure
+
+Source Physical Files
+
+Object Relationships
+
+Call Hierarchy
+
+Phase 2
+
+Database Design
+
+Generate all SQL
+
+DDS
+
+Keys
+
+Indexes
+
+Phase 3
+
+Display Files
+
+Phase 4
+
+Copybooks
+
+Phase 5
+
+COBOL Programs
+
+Generate one complete production-ready COBOL program at a time.
+
+Each program should contain approximately 300–500 lines.
+
+Continue until all modules are complete.
+
+Maintain consistency with previous programs.
+
+Never regenerate previous files.
+
+Remember all previous generated objects.
+
+When I type "NEXT", continue exactly where you stopped.
+
+Never skip any source member.
+
+Always provide complete compilable IBM i COBOL source.
